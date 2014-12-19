@@ -1,0 +1,5 @@
+E:\GitHub\SoftITOrchard\src\Orchard.WarmupStarter\bin\Debug\Orchard.WarmupStarter.dll
+E:\GitHub\SoftITOrchard\src\Orchard.WarmupStarter\bin\Debug\Orchard.WarmupStarter.pdb
+E:\GitHub\SoftITOrchard\src\Orchard.WarmupStarter\obj\Debug\Orchard.WarmupStarter.csprojResolveAssemblyReference.cache
+E:\GitHub\SoftITOrchard\src\Orchard.WarmupStarter\obj\Debug\Orchard.WarmupStarter.dll
+E:\GitHub\SoftITOrchard\src\Orchard.WarmupStarter\obj\Debug\Orchard.WarmupStarter.pdb

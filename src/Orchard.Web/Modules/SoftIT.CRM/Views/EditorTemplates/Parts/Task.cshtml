@@ -1,0 +1,57 @@
+﻿@model SoftIT.CRM.ViewModels.EditTaskViewModel
+
+@{
+    Script.Require("Task.Editor").AtFoot();
+}
+
+<div data-ng-app="taskEditor"
+     data-ng-controller="taskEditorController"
+     data-ng-init="init({parent:'@Model.Title'})">
+    <fieldset>
+        <legend>New Task</legend>
+
+        <div class="editor-label">@Html.LabelFor(model => model.Title)</div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Title)
+            @Html.ValidationMessageFor(model => model.Title)
+        </div>
+
+        <div class="editor-label">@Html.LabelFor(model => model.Deadline)</div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Deadline)
+            @Html.ValidationMessageFor(model => model.Deadline)
+        </div>
+
+        <div class="editor-label">@Html.LabelFor(model => model.EstimatedTime)</div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.EstimatedTime)
+            @Html.ValidationMessageFor(model => model.EstimatedTime)
+        </div>
+
+        <div class="editor-field">
+            <input type="checkbox" ng-model="isSubtask" />
+            @T("Is subtask?")
+        </div>
+
+        <div id="parent" data-ng-show="isSubtask">
+            <div class="editor-label">@Html.LabelFor(model => model.ParentTitle)</div>
+            <div class="editor-field">
+                @Html.DropDownListFor(model => model.ParentTitle,
+            Model.PossibleParents.Select(parent => new SelectListItem
+            {
+                Selected = parent.Title == Model.ParentTitle,
+                Text = parent.Title,
+                Value = parent.Id.ToString()
+            }))
+            </div>
+        </div>
+    </fieldset>
+</div>
+
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+E:\GitHub\SoftITOrchard\src\Tools\Orchard\bin\Debug\Orchard.exe.config
+E:\GitHub\SoftITOrchard\src\Tools\Orchard\bin\Debug\Orchard.exe
+E:\GitHub\SoftITOrchard\src\Tools\Orchard\bin\Debug\Orchard.pdb
+E:\GitHub\SoftITOrchard\src\Tools\Orchard\obj\Debug\Orchard.csprojResolveAssemblyReference.cache
+E:\GitHub\SoftITOrchard\src\Tools\Orchard\obj\Debug\Orchard.exe
+E:\GitHub\SoftITOrchard\src\Tools\Orchard\obj\Debug\Orchard.pdb
