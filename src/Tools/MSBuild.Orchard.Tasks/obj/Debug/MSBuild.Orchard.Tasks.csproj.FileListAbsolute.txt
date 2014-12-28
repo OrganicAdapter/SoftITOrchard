@@ -3,3 +3,8 @@ E:\GitHub\SoftITOrchard\src\Tools\MSBuild.Orchard.Tasks\bin\Debug\MSBuild.Orchar
 E:\GitHub\SoftITOrchard\src\Tools\MSBuild.Orchard.Tasks\obj\Debug\MSBuild.Orchard.Tasks.csprojResolveAssemblyReference.cache
 E:\GitHub\SoftITOrchard\src\Tools\MSBuild.Orchard.Tasks\obj\Debug\MSBuild.Orchard.Tasks.dll
 E:\GitHub\SoftITOrchard\src\Tools\MSBuild.Orchard.Tasks\obj\Debug\MSBuild.Orchard.Tasks.pdb
+d:\SoftIT\SoftITOrchard\src\Tools\MSBuild.Orchard.Tasks\bin\Debug\MSBuild.Orchard.Tasks.dll
+d:\SoftIT\SoftITOrchard\src\Tools\MSBuild.Orchard.Tasks\bin\Debug\MSBuild.Orchard.Tasks.pdb
+d:\SoftIT\SoftITOrchard\src\Tools\MSBuild.Orchard.Tasks\obj\Debug\MSBuild.Orchard.Tasks.dll
+d:\SoftIT\SoftITOrchard\src\Tools\MSBuild.Orchard.Tasks\obj\Debug\MSBuild.Orchard.Tasks.pdb
+d:\SoftIT\SoftITOrchard\src\Tools\MSBuild.Orchard.Tasks\obj\Debug\MSBuild.Orchard.Tasks.csprojResolveAssemblyReference.cache

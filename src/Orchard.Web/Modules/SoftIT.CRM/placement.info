@@ -1,3 +1,5 @@
 ﻿<Placement>
   <Place Parts_Task_Edit="Content: before" />
+  
+  <Place Parts_Project_Edit="Content: before" />
 </Placement>

@@ -3,3 +3,8 @@ E:\GitHub\SoftITOrchard\src\Orchard.WarmupStarter\bin\Debug\Orchard.WarmupStarte
 E:\GitHub\SoftITOrchard\src\Orchard.WarmupStarter\obj\Debug\Orchard.WarmupStarter.csprojResolveAssemblyReference.cache
 E:\GitHub\SoftITOrchard\src\Orchard.WarmupStarter\obj\Debug\Orchard.WarmupStarter.dll
 E:\GitHub\SoftITOrchard\src\Orchard.WarmupStarter\obj\Debug\Orchard.WarmupStarter.pdb
+d:\SoftIT\SoftITOrchard\src\Orchard.WarmupStarter\bin\Debug\Orchard.WarmupStarter.dll
+d:\SoftIT\SoftITOrchard\src\Orchard.WarmupStarter\bin\Debug\Orchard.WarmupStarter.pdb
+d:\SoftIT\SoftITOrchard\src\Orchard.WarmupStarter\obj\Debug\Orchard.WarmupStarter.csprojResolveAssemblyReference.cache
+d:\SoftIT\SoftITOrchard\src\Orchard.WarmupStarter\obj\Debug\Orchard.WarmupStarter.dll
+d:\SoftIT\SoftITOrchard\src\Orchard.WarmupStarter\obj\Debug\Orchard.WarmupStarter.pdb

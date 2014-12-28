@@ -4,3 +4,8 @@ E:\GitHub\SoftITOrchard\src\Orchard.Web\Modules\Orchard.MultiTenancy\bin\Orchard
 E:\GitHub\SoftITOrchard\src\Orchard.Web\Modules\Orchard.MultiTenancy\obj\Debug\Orchard.MultiTenancy.dll
 E:\GitHub\SoftITOrchard\src\Orchard.Web\Modules\Orchard.MultiTenancy\obj\Debug\Orchard.MultiTenancy.pdb
 E:\GitHub\SoftITOrchard\src\Orchard.Web\Modules\Orchard.MultiTenancy\obj\Debug\Orchard.MultiTenancy.csprojResolveAssemblyReference.cache
+d:\SoftIT\SoftITOrchard\src\Orchard.Web\Modules\Orchard.MultiTenancy\bin\Orchard.MultiTenancy.dll.config
+d:\SoftIT\SoftITOrchard\src\Orchard.Web\Modules\Orchard.MultiTenancy\bin\Orchard.MultiTenancy.dll
+d:\SoftIT\SoftITOrchard\src\Orchard.Web\Modules\Orchard.MultiTenancy\bin\Orchard.MultiTenancy.pdb
+d:\SoftIT\SoftITOrchard\src\Orchard.Web\Modules\Orchard.MultiTenancy\obj\Debug\Orchard.MultiTenancy.dll
+d:\SoftIT\SoftITOrchard\src\Orchard.Web\Modules\Orchard.MultiTenancy\obj\Debug\Orchard.MultiTenancy.pdb

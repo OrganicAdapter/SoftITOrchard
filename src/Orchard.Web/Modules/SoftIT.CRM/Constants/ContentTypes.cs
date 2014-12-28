@@ -8,5 +8,6 @@ namespace SoftIT.CRM.Constants
     public static class ContentTypes
     {
         public const string Task = "Task";
+        public const string Project = "Project";
     }
 }

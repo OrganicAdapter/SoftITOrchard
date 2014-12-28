@@ -34,17 +34,24 @@ namespace SoftIT.CRM.Services
                 .Where(taskPart => !taskPart.Id.Equals(part.Id))
                 .ToList();
 
+            var projects = _contentManager.Query(ContentTypes.Project)
+                .List<ProjectPart>();
+
             var viewModel = new EditTaskViewModel
             {
                 Deadline = part.Deadline,
                 ElapsedTime = part.ElapsedTime,
                 EstimatedTime = part.EstimatedTime,
-                Title = part.Title,
-                PossibleParents = possibleParents
+                IsSubtask = part.IsSubtask,
+                PossibleParents = possibleParents,
+                Projects = projects
             };
 
             if (part.ParentRecord != null)
-                viewModel.ParentTitle = part.ParentRecord.Title;
+                viewModel.ParentId = part.ParentRecord.Id.ToString();
+
+            if (part.ProjectRecord != null)
+                viewModel.ProjectId = part.ProjectRecord.Id.ToString();
 
             return viewModel;
         }
@@ -55,12 +62,18 @@ namespace SoftIT.CRM.Services
             taskPart.Deadline = viewModel.Deadline;
             taskPart.ElapsedTime = viewModel.ElapsedTime;
             taskPart.EstimatedTime = viewModel.EstimatedTime;
-            taskPart.Title = viewModel.Title;
+            taskPart.IsSubtask = viewModel.IsSubtask;
 
-            if (viewModel.ParentTitle != null)
+            if (viewModel.ProjectId != "" && !viewModel.IsSubtask)
+                taskPart.ProjectRecord = _contentManager.Query(ContentTypes.Project)
+                    .List<ProjectPart>()
+                    .FirstOrDefault(project => project.Id.ToString().Equals(viewModel.ProjectId))
+                    .Record;
+
+            if (viewModel.ParentId != "" && viewModel.IsSubtask)
                 taskPart.ParentRecord = _contentManager.Query(ContentTypes.Task)
                     .List<TaskPart>()
-                    .FirstOrDefault(task => task.Title.Equals(viewModel.ParentTitle))
+                    .FirstOrDefault(task => task.Id.ToString().Equals(viewModel.ParentId))
                     .Record;
         }
     }

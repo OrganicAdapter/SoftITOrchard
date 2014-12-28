@@ -3,7 +3,7 @@
 taskEditor.controller('taskEditorController', function ($scope) {
     $scope.isSubtask;
 
-    $scope.init = function (initValues) {
-        $scope.isSubtask = initValues.parent == '' ? false : true;
+    $scope.init = function (isSubtask) {
+        $scope.isSubtask = isSubtask;
     }
 });

@@ -4,3 +4,9 @@ E:\GitHub\SoftITOrchard\src\Tools\Orchard\bin\Debug\Orchard.pdb
 E:\GitHub\SoftITOrchard\src\Tools\Orchard\obj\Debug\Orchard.csprojResolveAssemblyReference.cache
 E:\GitHub\SoftITOrchard\src\Tools\Orchard\obj\Debug\Orchard.exe
 E:\GitHub\SoftITOrchard\src\Tools\Orchard\obj\Debug\Orchard.pdb
+d:\SoftIT\SoftITOrchard\src\Tools\Orchard\bin\Debug\Orchard.exe.config
+d:\SoftIT\SoftITOrchard\src\Tools\Orchard\bin\Debug\Orchard.exe
+d:\SoftIT\SoftITOrchard\src\Tools\Orchard\bin\Debug\Orchard.pdb
+d:\SoftIT\SoftITOrchard\src\Tools\Orchard\obj\Debug\Orchard.csprojResolveAssemblyReference.cache
+d:\SoftIT\SoftITOrchard\src\Tools\Orchard\obj\Debug\Orchard.exe
+d:\SoftIT\SoftITOrchard\src\Tools\Orchard\obj\Debug\Orchard.pdb

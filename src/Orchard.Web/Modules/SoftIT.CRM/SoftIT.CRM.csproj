@@ -94,9 +94,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Constants\ContentTypes.cs" />
+    <Compile Include="Drivers\ProjectPartDriver.cs" />
     <Compile Include="Drivers\TaskPartDriver.cs" />
+    <Compile Include="Handlers\ProjectPartHandler.cs" />
     <Compile Include="Handlers\TaskPartHandler.cs" />
-    <Compile Include="Migrations.cs" />
+    <Compile Include="Migrations\ProjectMigrations.cs" />
+    <Compile Include="Migrations\TaskMigrations.cs" />
+    <Compile Include="Models\ProjectPart.cs" />
     <Compile Include="Models\TaskPart.cs" />
     <Compile Include="ResourceManifest.cs" />
     <Compile Include="Services\TaskService.cs" />
@@ -119,6 +123,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\EditorTemplates\Parts\Project.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

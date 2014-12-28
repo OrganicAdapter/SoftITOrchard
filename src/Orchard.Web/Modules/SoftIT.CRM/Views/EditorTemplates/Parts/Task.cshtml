@@ -1,20 +1,19 @@
-﻿@model SoftIT.CRM.ViewModels.EditTaskViewModel
+﻿@using Orchard.Core.Title.Models
+
+@model SoftIT.CRM.ViewModels.EditTaskViewModel
 
 @{
     Script.Require("Task.Editor").AtFoot();
+
+    var parents = Model.PossibleParents.Select(parent => new SelectListItem { Text = (parent.ContentItem.Get(typeof(TitlePart)) as TitlePart).Title, Value = parent.Id.ToString() });
+    var projects = Model.Projects.Select(project => new SelectListItem { Text = (project.ContentItem.Get(typeof(TitlePart)) as TitlePart).Title, Value = project.Id.ToString() });
 }
 
 <div data-ng-app="taskEditor"
      data-ng-controller="taskEditorController"
-     data-ng-init="init({parent:'@Model.Title'})">
+     data-ng-init="init('@Model.IsSubtask')">
     <fieldset>
-        <legend>New Task</legend>
-
-        <div class="editor-label">@Html.LabelFor(model => model.Title)</div>
-        <div class="editor-field">
-            @Html.EditorFor(model => model.Title)
-            @Html.ValidationMessageFor(model => model.Title)
-        </div>
+        <legend>@T("New Task")</legend>
 
         <div class="editor-label">@Html.LabelFor(model => model.Deadline)</div>
         <div class="editor-field">
@@ -29,25 +28,25 @@
         </div>
 
         <div class="editor-field">
-            <input type="checkbox" ng-model="isSubtask" />
-            @T("Is subtask?")
+            @Html.CheckBoxFor(model => model.IsSubtask, new { data_ng_model = "isSubtask" })
+            <text>@T("Is subtask?")</text>
         </div>
 
-        <div id="parent" data-ng-show="isSubtask">
-            <div class="editor-label">@Html.LabelFor(model => model.ParentTitle)</div>
+        <div data-ng-show="isSubtask">
+            <div class="editor-label">@Html.LabelFor(model => model.ParentId)</div>
             <div class="editor-field">
-                @Html.DropDownListFor(model => model.ParentTitle,
-            Model.PossibleParents.Select(parent => new SelectListItem
-            {
-                Selected = parent.Title == Model.ParentTitle,
-                Text = parent.Title,
-                Value = parent.Id.ToString()
-            }))
+                @Html.DropDownListFor(model => model.ParentId, parents)
+            </div>
+        </div>
+
+        <div data-ng-hide="isSubtask">
+            <div class="editor-label">@Html.LabelFor(model => model.ProjectId)</div>
+            <div class="editor-field">
+                @Html.DropDownListFor(model => model.ProjectId, projects)
             </div>
         </div>
     </fieldset>
 </div>
-
 
 
 

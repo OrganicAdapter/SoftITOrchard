@@ -9,3 +9,14 @@ E:\GitHub\SoftITOrchard\src\Tools\Orchard.Tests\bin\Debug\Moq.xml
 E:\GitHub\SoftITOrchard\src\Tools\Orchard.Tests\obj\Debug\Orchard.Tests.csprojResolveAssemblyReference.cache
 E:\GitHub\SoftITOrchard\src\Tools\Orchard.Tests\obj\Debug\Orchard.Tests.dll
 E:\GitHub\SoftITOrchard\src\Tools\Orchard.Tests\obj\Debug\Orchard.Tests.pdb
+d:\SoftIT\SoftITOrchard\src\Tools\Orchard.Tests\bin\Debug\Orchard.Tests.dll
+d:\SoftIT\SoftITOrchard\src\Tools\Orchard.Tests\bin\Debug\Orchard.Tests.pdb
+d:\SoftIT\SoftITOrchard\src\Tools\Orchard.Tests\bin\Debug\Moq.dll
+d:\SoftIT\SoftITOrchard\src\Tools\Orchard.Tests\bin\Debug\nunit.framework.dll
+d:\SoftIT\SoftITOrchard\src\Tools\Orchard.Tests\bin\Debug\Orchard.exe
+d:\SoftIT\SoftITOrchard\src\Tools\Orchard.Tests\bin\Debug\Orchard.pdb
+d:\SoftIT\SoftITOrchard\src\Tools\Orchard.Tests\bin\Debug\Moq.pdb
+d:\SoftIT\SoftITOrchard\src\Tools\Orchard.Tests\bin\Debug\Moq.xml
+d:\SoftIT\SoftITOrchard\src\Tools\Orchard.Tests\obj\Debug\Orchard.Tests.csprojResolveAssemblyReference.cache
+d:\SoftIT\SoftITOrchard\src\Tools\Orchard.Tests\obj\Debug\Orchard.Tests.dll
+d:\SoftIT\SoftITOrchard\src\Tools\Orchard.Tests\obj\Debug\Orchard.Tests.pdb
